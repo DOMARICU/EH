@@ -4,7 +4,7 @@ Uilib.CreateUi = function(s:boolean)
     while not game.Loaded do task.wait(0.5) end
 
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
-    local CheatLib = loadstring(game:HttpGet(('...')))()
+    local CheatLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/DOMARICU/EH/main/CheatLib.lua')))()
     if not OrionLib then warn("UI 404 ERROR") return end
 
     local Window = OrionLib:MakeWindow({
